@@ -1,0 +1,19 @@
+{
+    "name": "mt19937"
+  , "version": "0.1.0"
+  , "description": "mt19937"
+  , "private": true
+  , "main": "mt19937.node"
+  , "engines": {
+        "node": ">=0.8.x"
+    }
+  , "dependencies": {
+    }
+  , "devDependencies": {
+        "mocha": "*"
+      , "should": "*"
+    }
+  , "scripts": {
+        "test": "mocha --recursive test"
+    }
+}
