@@ -1,19 +1,37 @@
 {
-    "name": "mt19937"
-  , "version": "0.1.0"
-  , "description": "mt19937"
-  , "private": true
-  , "main": "mt19937.node"
-  , "engines": {
-        "node": ">=0.8.x"
-    }
-  , "dependencies": {
-    }
-  , "devDependencies": {
-        "mocha": "*"
-      , "should": "*"
-    }
-  , "scripts": {
-        "test": "mocha --recursive test"
-    }
+  "name": "mt19937",
+  "description": "Generates a better random number",
+  "version": "0.1.0",
+  "author": "Masaki Tojo",
+  "bugs": {
+    "url": "https://github.com/mtojo/node-mt19937/issues"
+  },
+  "dependencies": {
+    "nan": "~2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.7.1",
+    "mocha": "~3.1.2",
+    "power-assert": "~1.4.1"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/mtojo/node-mt19937",
+  "keywords": [
+    "random"
+  ],
+  "license": "MIT",
+  "main": "build/Release/mt19937.node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtojo/node-mt19937.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  }
 }
